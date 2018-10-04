@@ -3,6 +3,7 @@ Welcome to my project page!
 
 An overview of the project:
 My plan is to explore the New York Citi Bike trip data occur during the first week of July 2018.
+
 Possible analysis /questions:
 - How frequent does overtime usage occur?
 - Users demographic.
@@ -15,3 +16,10 @@ Dataset description:
 
 Source:
 - The data was taken from Citi Bike System Data: https://www.citibikenyc.com/system-data
+
+Descriptive Statistics:
+- Trip duration's sample mean = 1175.045 (seconds)
+- Trip duration's sample standard deviation = 17878.38
+- Users's birth year's sample mean = 1979.192
+- Users's birth year's sample standard deviation = 11.72437
+
