@@ -18,8 +18,13 @@ Source:
 - The data was taken from Citi Bike System Data: https://www.citibikenyc.com/system-data
 
 Descriptive Statistics:
-- Trip duration's sample mean = 1175.045 (seconds)
-- Trip duration's sample standard deviation = 17878.38
+- Trip duration's sample mean = 19.58409 (minutes)
+- Trip duration's sample standard deviation = 297.9729 (minutes)
 - Users's birth year's sample mean = 1979.192
-- Users's birth year's sample standard deviation = 11.72437
+- Users's birth year's sample standard deviation = 11.72437 (year)
+- Bike pick up time of the day's sample mean = 2018-07-05 05:55:06 EDT
+- Bike pick up time of the day's sample standard deviation = 3325.627 (minutes)
+- Bike drop off time of the day's sample mean = 2018-07-05 06:14:42 EDT
+- Bike drop off time of the day's sample standard deviation = 3340.193 (minutes)
 
+Graphs:
