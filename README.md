@@ -1,5 +1,5 @@
 
-Welcome to my project page!
+WELCOME TO MY PROJECT PAGE!
 
 An overview of the project:
 My plan is to explore the New York Citi Bike trip data occur during the first week of July 2018.
@@ -28,3 +28,25 @@ Descriptive Statistics:
 - Bike drop off time of the day's sample standard deviation = 3340.193 (minutes)
 
 Graphs:
+
+![alt text](https://raw.githubusercontent.com/Hana87NH/MAT327_Statistics/master/graphs/Hist_gender.png)
+
+The gender data has left-skewed distribution and appear to be platykurtic.
+
+![alt text](https://raw.githubusercontent.com/Hana87NH/MAT327_Statistics/master/graphs/CitiBike_hist_birthyear.png)
+![alt text](https://raw.githubusercontent.com/Hana87NH/MAT327_Statistics/master/graphs/Boxplot_birthYear.png)
+
+
+The birth year data also has left-skewed distribution but appear to be leptokurtic. 75% of the data are within 1955 and 2002. The data also seem to have many outliers.
+
+![alt text](https://raw.githubusercontent.com/Hana87NH/MAT327_Statistics/master/graphs/Citibike_boxplot_tripduration.png)
+
+The trip duration data have many outliers.
+
+![alt text](https://raw.githubusercontent.com/Hana87NH/MAT327_Statistics/master/graphs/boxPlot_pickUp.png)
+
+The pick up time data seem to be slightly left skewed
+
+![alt text](https://raw.githubusercontent.com/Hana87NH/MAT327_Statistics/master/graphs/Boxplot_dropOff.png)
+
+The pick up time data seem to be rightly skewed and have many outliers
