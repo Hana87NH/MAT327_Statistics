@@ -50,3 +50,12 @@ The pick up time data seem to be slightly left skewed
 ![alt text](https://raw.githubusercontent.com/Hana87NH/MAT327_Statistics/master/graphs/Boxplot_dropOff.png)
 
 The pick up time data seem to be rightly skewed and have many outliers
+
+![alt text](https://raw.githubusercontent.com/Hana87NH/MAT327_Statistics/master/graphs/Pareto_Gender.png)
+
+There are more male subcribers than female subcribers (given that nonsubcribers gender is unknown)
+
+![alt text](https://raw.githubusercontent.com/Hana87NH/MAT327_Statistics/master/graphs/Pareto_UserTypes.png)
+
+More than 75% users are subcribers vs less than 25% non-subcribers
+
