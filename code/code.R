@@ -3,8 +3,12 @@ citibike$start.station.latitude <- NULL
 citibike$start.station.longitude <- NULL
 citibike$end.station.longitude <- NULL
 citibike$end.station.latitude <- NULL
-citibike$starttime <- as.POSIXct(citibike$starttime)
-citibike$stoptime <- as.POSIXct(citibike$stoptime)
+citibike$bikeid <- NULL
+library(lubridate)
+citibike$start.date <-date(as.POSIXct(citibike$starttime))
+citibike$stop.date <-date(as.POSIXct(citibike$stoptime))
+citibike$starttime <- hour(as.POSIXct(citibike$starttime))
+citibike$stoptime <- hour(as.POSIXct(citibike$stoptime))
 citibike$tripduration <-citibike$tripduration/60
 
 mean(citibike$tripduration)
@@ -29,6 +33,11 @@ pareto.chart(table(citibike$usertype), ylab="Frequency", main='Pareto chart for 
 pareto.chart(table(citibike$gender), ylab="Frequency", main='Pareto chart for User Gender', xlab= 'Gender (0 = unknown, 1 = male, 2 = female)')
 pareto.chart(table(citibike$start.station.id), ylab="Frequency", main='Pareto chart for Pick up station')
 pareto.chart(table(citibike$end.station.id), ylab="Frequency", main='Pareto chart for Drop off station')
+
+t.test(citibike$tripduration)
+t.test(citibike$birth.year)
+
+
 
 
 
